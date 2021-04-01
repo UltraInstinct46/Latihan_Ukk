@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/nis_edt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="NIS" />
+    <EditText
+        android:id="@+id/nama_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+    <EditText
+        android:id="@+id/jk_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Kelamin" />
+    <EditText
+        android:id="@+id/temp_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Lahir" />
+    <EditText
+        android:id="@+id/tgl_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Lahir" />
+    <EditText
+        android:id="@+id/alamat_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat" />
+    <EditText
+        android:id="@+id/sekolah_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asal Sekolah" />
+    <EditText
+        android:id="@+id/kelas_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelas" />
+    <EditText
+        android:id="@+id/jurusan_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jurusan" />
+    <Button
+        android:id="@+id/add_ppdb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+  </LinearLayout>
